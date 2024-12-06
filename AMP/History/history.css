@@ -1,0 +1,199 @@
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Poppins;
+    }
+
+    ::-webkit-scrollbar {
+        display: none;
+    }
+    
+    html, body {
+        background-color: #eee;
+        height: 100%;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav {
+        z-index: 100;
+    }
+
+    .navbar-brand {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        font-weight: 600;
+    }
+
+    .navbar-nav .bx {
+        font-size: 24px;
+        color: red;
+    }
+
+    .navbar-brand .bx {
+        font-size: 24px;
+        color: blueviolet;
+        margin-right: 20px;
+    }
+
+    .navbar {
+        position: fixed;
+        top: 0px;
+        width: 100%;
+        padding: 15px 0;
+        background-color: white;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    .nav-link {
+        color: #333 !important;
+        font-weight: 500;
+        padding: 8px 16px !important;
+    }
+
+    .nav-link:hover {
+        color: #ff4444 !important;
+    }
+
+    .search-form {
+        position: relative;
+    }
+
+    .search-form input {
+        padding-right: 40px;
+        border-radius: 20px;
+        border: 1px solid #ddd;
+    }
+
+    .search-form button {
+        position: absolute;
+        right: 5px;
+        top: 50%;
+        transform: translateY(-50%);
+        border: none;
+        background: none;
+        color: #666;
+    }
+
+    .dark-mode-toggle {
+        border: none;
+        background: none;
+        padding: 8px;
+        margin-left: 10px;
+    }
+
+    .transaction {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 100px;
+    }
+    
+    .transaction h3 {
+        padding: 20px;
+        text-align: center;
+    }
+    
+    .card {
+        width: 100%; /* Isi kolom grid sepenuhnya */
+        max-width: 350px; /* Batas maksimal lebar */
+        box-shadow: 0 2px 3px #e4e8f0;
+        background-color: #fff;
+        border: 1px solid #eff0f2;
+        border-radius: 1rem;
+    }
+    
+    .row.g-4 {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); /* 3 kolom */
+        gap: 20px;
+        justify-items: center; /* Rata tengah horizontal */
+    }
+    
+    
+    .avatar-md {
+        height: 4rem;
+        width: 4rem;
+    }
+    .rounded-circle {
+        border-radius: 50%!important;
+    }
+    .img-thumbnail {
+        padding: 0.25rem;
+        background-color: #f1f3f7;
+        border: 1px solid #eff0f2;
+        border-radius: 0.75rem;
+    }
+    .avatar-title {
+        align-items: center;
+        background-color: #3b76e1;
+        color: #fff;
+        display: flex;
+        font-weight: 500;
+        height: 100%;
+        justify-content: center;
+        width: 100%;
+    }
+    .bg-soft-primary {
+        background-color: rgba(59,118,225,.25)!important;
+    }
+    a {
+        text-decoration: none!important;
+    }
+    .badge-soft-danger {
+        color: #f56e6e !important;
+        background-color: rgba(245,110,110,.1);
+    }
+    .badge-soft-success {
+        color: #63ad6f !important;
+        background-color: rgba(99,173,111,.1);
+    }
+    .mb-0 {
+        margin-bottom: 0!important;
+    }
+    .badge {
+        display: inline-block;
+        padding: 0.25em 0.6em;
+        font-size: 75%;
+        font-weight: 500;
+        line-height: 1;
+        color: #fff;
+        text-align: center;
+        white-space: nowrap;
+        vertical-align: baseline;
+        border-radius: 0.75rem;
+    }
+
+    main {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #eee;
+    }
+    
+    main .main-table tr .search {
+        background-color: #88C273;
+    }
+
+    footer {
+        background-color: #b7b1b1;
+        width: 100%;
+        text-align: center;
+        /* position: fixed; */
+        bottom: 0;
+    }
+    
+    footer .text-center { 
+        background-color: #b7b1b1;
+    }
+    
+    footer .text-center a {
+        text-decoration: none;
+    }
